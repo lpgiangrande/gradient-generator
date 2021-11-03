@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Générateur de dégradés</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- couleurs du dégradé -->
+    <div class="container-colors">
+        <input type="text" data-index="1" maxlength="7" class="input-color">
+        <input type="text" data-index="2" maxlength="7" class="input-color">
+    </div>
+
+    <!-- inclinaison du dégradé -->
+    <div class="container-range">
+        <input type="range" class="range-input">
+    </div>
+
+    <!-- boutons -->
+    <div class="container-btn">
+        <!-- bouton + -->
+        <button type="button" class="plus">
+            <img src="ressources/plus.svg" alt="">
+        </button>
+        <!-- bouton - -->
+        <button type="button" class="minus">
+            <img src="ressources/minus.svg" alt="">
+        </button>
+        <!-- bouton random colors -->
+        <button type="button" class="random">
+            <p>Random</p>
+        </button>
+    </div>
+    <!-- Renseignements -->
+    <span class="info"></span>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
