@@ -1,6 +1,8 @@
 # gradient-generator
 
-Js project from Udemy
+live site : https://gradient-generator-udemy.netlify.app/
+
+Js project from Udemy (Enzo Ustariz)
 
 - Add or delete colors (max 8 inputs / min 2 inputs)
 - Change tilt of gradient
